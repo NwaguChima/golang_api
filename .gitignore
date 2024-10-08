@@ -1,0 +1,39 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+
+# Output of build process
+bin/
+build/
+dist/
+
+# Temporary files
+*.log
+*.tmp
+
+# Go test binaries
+*.test
+
+# Dependency directories (auto-generated)
+vendor/
+
+# Go module files
+go.sum
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# air live reload configuration
+.air.toml
+
+# Coverage reports
+*.out
